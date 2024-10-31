@@ -1,4 +1,4 @@
-/*const TelegramBot = require('node-telegram-bot-api');
+const TelegramBot = require('node-telegram-bot-api');
 
 const token = '7747217090:AAGrLncvc0J_cDh3Z2RHZl8LrPQ7terbUMo';
 
@@ -9,4 +9,4 @@ bot.on('message', (msg) => {
 
   // send a message to the chat acknowledging receipt of their message
   bot.sendMessage(chatId, 'Received your message');
-});*/
+});
